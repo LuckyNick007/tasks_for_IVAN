@@ -36,4 +36,15 @@
 # Sample Output 3:
 # 0.5
 
+num1, num2, oper = float(input()), float(input()), input()
 
+def main(a, b, oper):
+    if oper == '+': return a + b
+    elif oper == '-': return a - b
+    elif oper == '/': return 'Division by 0!' if b == 0 else a / b
+    elif oper == '*': return a * b
+    elif oper == 'mod': return 'Division by 0!' if b == 0 else a % b
+    elif oper == 'pow': return a ** b
+    elif oper == 'div': return 'Division by 0!' if b == 0 else a // b
+
+print(main(num1, num2, oper))
