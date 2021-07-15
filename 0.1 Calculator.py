@@ -46,5 +46,6 @@ def main(a, b, oper):
     elif oper == 'mod': return 'Division by 0!' if b == 0 else a % b
     elif oper == 'pow': return a ** b
     elif oper == 'div': return 'Division by 0!' if b == 0 else a // b
+    else: return 'Wrong operator!'
 
 print(main(num1, num2, oper))
