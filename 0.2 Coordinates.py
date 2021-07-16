@@ -11,3 +11,10 @@
 # Sample Output 1:
 # IV
 
+def decart(x, y):
+    if x > 0 < y: return 'I'
+    if x < 0 < y: return 'II'
+    if x < 0 > y: return 'III'
+    if x > 0 > y: return 'IV'
+
+print(decart(float(input()), float(input())))
