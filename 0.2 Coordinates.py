@@ -13,8 +13,9 @@
 
 def decart(x, y):
     if x > 0 < y: return 'I'
-    if x < 0 < y: return 'II'
-    if x < 0 > y: return 'III'
-    if x > 0 > y: return 'IV'
-
+    elif x < 0 < y: return 'II'
+    elif x < 0 > y: return 'III'
+    elif x > 0 > y: return 'IV'
+    else: return "It's the origin!"
+    
 print(decart(float(input()), float(input())))
