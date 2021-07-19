@@ -7,3 +7,11 @@
 # Вы должны вычислить и распечатать, сколько ходов может сделать фигура:
 # например, из позиции (1, 8) король может сделать только 3 хода (вправо, вниз, по диагонали).
 
+i = int(input())  # column
+j = int(input())  # indicate
+if i in [1, 8] and j in [1, 8]:
+    print(3)
+elif i in [1, 8] and j in range(2, 8) or i in range(2, 8) and j in [1, 8]:
+    print(5)
+else:
+    print(8)
