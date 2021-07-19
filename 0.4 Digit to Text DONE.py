@@ -13,3 +13,7 @@
 # four
 # five
 
+num = input()
+voice = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+for n in num:
+    print(voice[int(n)])
