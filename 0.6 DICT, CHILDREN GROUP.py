@@ -26,7 +26,6 @@ groups = ['1A', '1B', '1C', '2A', '2B', '2C', '3A', '3B', '3C']
 # your code here
 
 group_child = dict.fromkeys(groups)
-num_group = int(input())
-for i in range(num_group):
+for i in range(int(input())):
     group_child[groups[i]] = int(input())
 print(group_child)
