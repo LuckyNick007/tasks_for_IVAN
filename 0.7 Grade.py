@@ -27,3 +27,10 @@
 # Sample Output 2:
 # F
 
+percent = float(input()) / float(input()) * 100
+
+if percent > 90: print('A')
+elif 90 > percent >= 80: print('B')
+elif 80 > percent >= 70: print('C')
+elif 70 > percent >= 60: print('D')
+elif 60 > percent: print('F')
